@@ -1,0 +1,102 @@
+(footprint "Stabilizer-Cutout"
+	(version 20260206)
+	(generator "pcbnew")
+	(generator_version "10.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -8.1 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "a3c0b2f6-4885-4057-82fc-37b007cdf71d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Stabilizer-Cutout"
+		(at 0 -6.6 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "afce3b2c-0560-4588-931e-e148f658a1eb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "17c5e039-2975-406a-9282-8be645e293f3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3132cc8e-bfe3-4c06-9b28-62c66282e930")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(duplicate_pad_numbers_are_jumpers no)
+	(fp_poly
+		(pts
+			(arc
+				(start -2.95 1.95)
+				(mid -3.95 2.95)
+				(end -2.95 3.95)
+			)
+			(arc
+				(start 2.95 3.95)
+				(mid 3.95 2.95)
+				(end 2.95 1.95)
+			)
+			(arc
+				(start 2.95 -1.95)
+				(mid 3.95 -2.95)
+				(end 2.95 -3.95)
+			)
+			(arc
+				(start -2.95 -3.95)
+				(mid -3.95 -2.95)
+				(end -2.95 -1.95)
+			)
+		)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(fill no)
+		(layer "Edge.Cuts")
+		(uuid "b49bde3e-e028-44fb-96aa-8a31ecd33b33")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 -5.1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "fa9938f1-2da8-48d5-a9b9-6c40ade7e443")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

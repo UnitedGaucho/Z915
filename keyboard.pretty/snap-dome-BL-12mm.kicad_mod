@@ -1,0 +1,83 @@
+(footprint "snap-dome-BL-12mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Snaptron BL-series snap dome 12mm single side")
+	(tags "snap dome, snaptron")
+	(property "Reference" "REF**"
+		(at -9.4 -21.48 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "72de9e7e-d519-423a-b176-f05df67a577d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "snap-dome-BL-12mm"
+		(at -9.4 -19.98 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "b843b70f-6235-4c3f-9848-6d12f9617837")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7213f4bd-a6cc-4860-a0f9-40a7283e62ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "71b732ba-32d1-451c-8c6a-19fd127fd857")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_circle
+		(center 0 0)
+		(end 2.625 0)
+		(stroke
+			(width 2.07)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Cu")
+		(uuid "f200dabb-dff2-4bf7-9675-63ff9b037922")
+	)
+	(fp_text user "${REFERENCE}"
+		(at -9.4 -18.48 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6969153b-89d3-4041-9a7d-aff8180f54f2")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(embedded_fonts no)
+)

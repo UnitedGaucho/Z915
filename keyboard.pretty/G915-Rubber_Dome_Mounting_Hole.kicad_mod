@@ -1,0 +1,77 @@
+(footprint "G915-Rubber_Dome_Mounting_Hole"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0 -2.44 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "2b1d45af-1ee3-4e2b-bf68-bbc8a5e4b663")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "G915-Rubber_Dome_Mounting_Hole"
+		(at 0 2.62 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "6e4e114a-d0f3-4df8-aa13-cdc2b18490c5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "3b2d33ca-5c2d-441b-a6ac-5512e78d3f35")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c33b81ca-b4be-4d5e-aceb-c1199a5e6ecf")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.12 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "13267405-6847-422d-8a67-a6606e873800")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 0 0)
+		(size 2.5 2.5)
+		(drill 2.5)
+		(layers "*.Mask")
+		(uuid "dd0a5bd2-2cb0-44a2-8c1b-ddcd7c4e178f")
+	)
+	(embedded_fonts no)
+)

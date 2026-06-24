@@ -1,0 +1,652 @@
+(kicad_sch
+	(version 20260306)
+	(generator "eeschema")
+	(generator_version "10.0")
+	(uuid "d65355cf-d81b-44b6-8bf0-698cb19015da")
+	(paper "A4")
+	(lib_symbols
+		(symbol "Device:D"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "D"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "TO-???* *_Diode_* *SingleDiode* D_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "D_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "D_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Switch:SW_SPST"
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "SW"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPST"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Single Pole Single Throw (SPST) switch"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "switch lever"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SW_SPST_0_0"
+				(circle
+					(center -2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.524 0.254) (xy 1.524 1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 0)
+					(radius 0.508)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPST_1_1"
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(wire
+		(pts
+			(xy 158.75 114.3) (xy 160.02 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "18a35e10-ff78-491d-8145-84369a24e8fe")
+	)
+	(wire
+		(pts
+			(xy 138.43 114.3) (xy 139.7 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cbd28581-234e-4d4c-ba9c-2753c417f10a")
+	)
+	(wire
+		(pts
+			(xy 151.13 114.3) (xy 149.86 114.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f4951b0f-00e9-4906-b628-1fab685cd151")
+	)
+	(hierarchical_label "KEY_OUT"
+		(shape passive)
+		(at 160.02 114.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "05be29f1-83f5-47f1-9d41-6af09d8bb1cd")
+	)
+	(hierarchical_label "KEY_IN"
+		(shape passive)
+		(at 138.43 114.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "bed98f44-aab8-4686-b303-fea51db8f60a")
+	)
+	(symbol
+		(lib_id "Switch:SW_SPST")
+		(at 144.78 114.3 0)
+		(mirror y)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "808ae2f1-23a9-4f7f-947c-a39f329d424b")
+		(property "Reference" "MX18"
+			(at 144.78 109.22 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1.00u"
+			(at 144.78 111.76 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "key-switches:SW_Kailh_Choc_V1_THT"
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Single Pole Single Throw (SPST) switch"
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN Alt" ""
+			(at 144.78 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "e9a7a072-b3d5-4bf2-a13c-81e420f6db0b")
+		)
+		(pin "2"
+			(uuid "40ca3df3-d549-4cdc-8d86-3717ed653683")
+		)
+		(instances
+			(project "dev-board"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/3ad0e056-feb3-4045-90e6-606d64bfbf79"
+					(reference "MX24")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/56fd1104-4f16-4be3-94b8-eb0d77655020"
+					(reference "MX22")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/84a9533d-146e-4d68-9772-86dae76593f8"
+					(reference "MX23")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/a4fa3978-ae95-4cb9-be2e-c1560fca7a73"
+					(reference "MX19")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/afcfe5d5-5530-4520-97d9-8bd46932ca60"
+					(reference "MX20")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/cc8ca505-6b5e-4e9d-9526-a8b8fef494a5"
+					(reference "MX18")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/fd4e35c7-d174-4227-b471-11596b99693e"
+					(reference "MX21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:D")
+		(at 154.94 114.3 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "8ed30aa1-1053-4467-87fd-9f32f830506f")
+		(property "Reference" "D18"
+			(at 154.94 119.38 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "B140S1F-7"
+			(at 157.48 123.19 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "keyboard:D_SOD-123F"
+			(at 154.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 154.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Diode"
+			(at 154.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN" "B140S1F-7"
+			(at 154.94 114.3 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "PN Alt" "SS1040FL_R1_00001"
+			(at 154.94 114.3 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6c5d9d95-fe37-482d-94b0-f5c6466c97d2")
+		)
+		(pin "2"
+			(uuid "6b036112-e0d2-4a2e-8790-25c559cff25d")
+		)
+		(instances
+			(project "dev-board"
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/3ad0e056-feb3-4045-90e6-606d64bfbf79"
+					(reference "D24")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/56fd1104-4f16-4be3-94b8-eb0d77655020"
+					(reference "D22")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/84a9533d-146e-4d68-9772-86dae76593f8"
+					(reference "D23")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/a4fa3978-ae95-4cb9-be2e-c1560fca7a73"
+					(reference "D19")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/afcfe5d5-5530-4520-97d9-8bd46932ca60"
+					(reference "D20")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/cc8ca505-6b5e-4e9d-9526-a8b8fef494a5"
+					(reference "D18")
+					(unit 1)
+				)
+				(path "/ef112b03-6536-453f-8127-17d1495b48aa/e04399ab-64f4-4bd2-9c64-ad9a16789924/fd4e35c7-d174-4227-b471-11596b99693e"
+					(reference "D21")
+					(unit 1)
+				)
+			)
+		)
+	)
+)
